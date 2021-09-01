@@ -1,0 +1,27 @@
+$primButton : rgb(60, 69, 158);
+
+@import "./header";
+
+@mixin flexbox {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    @include flexbox;
+    position: relative;
+    top: 100px;
+    background: #ff6961;
+}
+
+.containcontainer {
+    background: #ff6961;
+    height: 700px;
+}
+
+img {
+    @include roundCorners;
+    height: 300px;
+    
+}

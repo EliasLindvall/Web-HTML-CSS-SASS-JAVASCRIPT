@@ -1,0 +1,54 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: #3776d4;
+}
+
+header button {
+  background: #3c459e;
+}
+
+header button:hover {
+  background: #0b1e75;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+header button:hover::after {
+  content: "en";
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: 100px;
+  background: #ff6961;
+}
+
+.containcontainer {
+  background: #ff6961;
+  height: 700px;
+}
+
+img {
+  border-radius: 5px;
+  height: 300px;
+}
+/*# sourceMappingURL=style.css.map */

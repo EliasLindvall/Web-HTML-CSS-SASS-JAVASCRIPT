@@ -1,0 +1,29 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin roundCorners {
+    border-radius: 5px;
+}
+
+
+
+header {
+
+    @include flexCenter(); 
+    @include roundCorners();
+
+    background: rgb(55, 118, 212);
+    button {
+        background: $primButton;
+        &:hover{
+            background: rgb(11, 30, 117);
+            transform: scale(1.07);
+            &::after {
+                content: "en";
+            }
+        }
+    }
+}

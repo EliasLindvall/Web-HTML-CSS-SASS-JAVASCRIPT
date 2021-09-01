@@ -1,0 +1,15 @@
+@import "./variables";
+
+
+@mixin color($color){
+    background-color: $color;
+} 
+
+@mixin change_font_size($font) {
+    font-size: $font;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+}
