@@ -1,15 +1,17 @@
+@import ("./_header.scss")
+
 $primButton : rgb(60, 69, 158);
 
 @import "./header";
 
-@mixin flexbox {
+@mixin flexcenter {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .container {
-    @include flexbox;
+    @include flexcenter;
     position: relative;
     top: 100px;
     background: #ff6961;
