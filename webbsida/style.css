@@ -1,0 +1,27 @@
+body {
+  background-color: #3b3b3b;
+  height: 300vh;
+}
+
+.logopos {
+  margin-bottom: 1.5vh;
+}
+
+.header {
+  background-color: #3b3b3b;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 500px;
+}
+/*# sourceMappingURL=style.css.map */

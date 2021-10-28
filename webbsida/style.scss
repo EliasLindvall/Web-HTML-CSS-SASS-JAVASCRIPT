@@ -1,0 +1,20 @@
+@import 'functions';
+
+body {
+    @include black;
+    height: 300vh;
+}
+
+.logopos {
+    margin-bottom: 1.5vh;
+}
+
+.header {
+    @include black;
+    height: 70vh;
+    @include flexcenter
+}
+
+.logo {
+    width: 500px;
+}
